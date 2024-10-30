@@ -77,7 +77,5 @@ Please provide the code along with its reference. For example, you can cite it a
 
 
 
-### Penalty
 
-* High code similarity to others: YOUR SCORE = 0
 
