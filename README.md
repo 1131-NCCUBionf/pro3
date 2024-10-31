@@ -1,5 +1,6 @@
-# pro3.global|local-Aln
-<your name + student ID>
+# pro3. perform global|local alignment
+* your name
+* student ID
 
 ## Description
 
