@@ -17,7 +17,7 @@ def alignment(input_path, score_path, output_path, aln, gap):
     .
 ```
 * If there is more than one local alignment with the same highest score, you should output local alignments with the maximum length. 
-* If there is more than one local alignment with the same highest score, you should output those local alignments in string sequential order according to protein1 and then protein2, i.e., 
+* If there is more than one local alignment with the same highest score and length, you should output those local alignments in string sequential order according to protein1 and then protein2, i.e., 
   ```
   >protein1
   local alignment1
@@ -38,13 +38,14 @@ def alignment(input_path, score_path, output_path, aln, gap):
 
 ## Files
 
-* hw3_ref.py: You can start from this reference code, and try to write your own comment in English.
+* hw3_ref.py: You can start from this reference code and try to write your own comment in English.
 * pam100.txt
 * pam250.txt
 * test_global.fasta
 * result_global.fasta: You should output your alignment in FASTA format.
 * test_local.fasta
 * result_local.fasta
+  
 ## Command
 
 Executing your code with the following command.
